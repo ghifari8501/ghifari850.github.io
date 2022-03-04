@@ -1,0 +1,114 @@
+:root {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(138, 138, 240);
+    font-size: 12pt;
+    line-height: 0.5cm;
+}
+h1{
+    color: rgb(0, 4, 255);
+    line-height: 1cm;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+fieldset, 
+legend {
+    background-color: rgb(31, 33, 148);
+    color:rgb(214, 107, 107);
+    border:rgb(136, 29, 29) 2px solid;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+body{
+    margin:0.5cm 2cm;
+    background-color: rgb(80, 225, 188);
+}
+hr{
+    border: 1px dashed rgb(213, 24, 24);
+}
+div#menu{
+    text-align: center;
+}
+/*------  Pseudo Class  ------*/   
+    a:link, a:active, a:visited{
+        text-decoration: none;
+        color: rgb(15, 53, 4);
+        font-size: 14pt;
+        font-weight: bold;
+        border:1px ridge rgb(16, 80, 0);
+        border-radius: 20px;
+        background-color: rgb(120, 194, 113);    
+        padding: 5px;
+    }
+    a:hover{
+        text-decoration: none;
+        color: red;
+        font-size: 16pt;
+        font-weight: bolder;
+        border:5px inset rgb(16, 80, 0);
+        border-radius: 25px;
+        background-color: rgb(206, 255, 91);    
+        padding: 15px;
+    }
+    /*-------------- Pseudo Element --------------*/
+    .p1:first-letter{
+        font-size: 24pt;
+        color: yellow;
+        font-family: 'Segoe UI';
+        float: left;
+        margin-top: 10px;
+        padding-right: 5px;
+    }
+p.p1:first-line{
+    font-style: calibri;
+    background-color: khaki;
+    color:olive;
+}
+ul.jenis_kelas{
+    list-style-image: url('icon/icon/good.png');
+}
+.hobby {
+    list-style-image: url('icon/icon/nyanyi.gif');
+}
+.menu {
+    list-style-image: url('icon/icon/musik.gif');
+}
+.pendidikann{
+    list-style-image: url('icon/icon/mc.jpg');
+}
+.hobbyy {
+    list-style-image: url('icon/icon/clock.png');
+}
+.menuu {
+    list-style-image: url('icon/icon/marah.jpg');
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  #customers td, #customers th {
+    border: 1px dashed greenyellow;
+    padding: 10px;  
+  }
+    #customers th {
+        padding: 10px 5px;
+        background-color: purple;
+        color: red;
+  }
+  #customers tr:nth-child(even){
+      background-color: rgb(0, 81, 255);
+    }
+    #customers tr:nth-child(odd){
+        background-color: rgb(245, 196, 0);
+    }
+    #customers tr:hover {
+        background-color: rgb(255, 0, 0);
+    }
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
