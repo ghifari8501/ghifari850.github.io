@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <head>
     <title>Tugas2_CSS</title>
     <link rel="stylesheet" type="text/css" href="style_tugas2.css"/>
@@ -88,5 +87,3 @@
   </tr>
 </table>
     </body>
-    <hr/>
-</html>
